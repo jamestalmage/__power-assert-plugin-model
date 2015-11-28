@@ -1,0 +1,24 @@
+{
+  "name": "power-assert-plugin-model",
+  "version": "1.0.0",
+  "description": "A proposal for a pluggable power-assert ecosystem",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamestalmage/__power-assert-plugin-model.git"
+  },
+  "author": "James Talmage <james@talmage.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamestalmage/__power-assert-plugin-model/issues"
+  },
+  "homepage": "https://github.com/jamestalmage/__power-assert-plugin-model#readme",
+  "private": true,
+  "dependencies": {
+    "markdown-toc": "^0.11.7",
+    "trash": "^3.4.0"
+  }
+}
