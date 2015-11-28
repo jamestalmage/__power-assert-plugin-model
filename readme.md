@@ -4,6 +4,25 @@
 
 <!-- toc -->
 
+- [Intro](#intro)
+- [Plugin Definitions](#plugin-definitions)
+- [Assertion Libraries](#assertion-libraries)
+  * [Library Definition](#library-definition)
+  * [Library Consumption](#library-consumption)
+    + [Simple use by users:](#simple-use-by-users-)
+    + [Advanced use in Testing Frameworks:](#advanced-use-in-testing-frameworks-)
+  * [Ideas / Pending Specifications:](#ideas---pending-specifications-)
+- [Renderers](#renderers)
+- [Presets](#presets)
+  * [Preset Merging](#preset-merging)
+    + [Option 1](#option-1)
+    + [Option 2](#option-2)
+  * [Filtering Assertion Libraries](#filtering-assertion-libraries)
+  * [Remapping Assertion Function Names](#remapping-assertion-function-names)
+  * [Mapping Libraries onto sub-objects](#mapping-libraries-onto-sub-objects)
+
+<!-- tocstop -->
+
 ## Intro
 
 `power-assert` is awesome, and it needs wider adoption. I think the best way to do this is to create an ecosystem of assertion libraries, renderers, and test frameworks.
@@ -223,8 +242,7 @@ return {
   renderers: [
     'succinct',
     ['preset-sinon', optionC, optionD] // different config options for the preset-sinon renderers
-  ],
-
+  ]
 };
 ```
 

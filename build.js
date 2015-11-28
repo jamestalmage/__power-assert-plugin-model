@@ -7,11 +7,11 @@ var fs = require('fs');
 
 var readmeFilePath = path.join(__dirname, 'readme.md');
 
-var initialContents = readFileSync(readmeFilePath, 'utf8');
+var initialContents = fs.readFileSync(readmeFilePath, 'utf8');
 
-var newContents = toc(initialContents).inject;
+var newContents = toc.insert(initialContents);
 
-trash(readmeFilePath)
+trash([readmeFilePath])
   .then(function () {
     fs.writeFileSync(readmeFilePath, newContents)
   });
