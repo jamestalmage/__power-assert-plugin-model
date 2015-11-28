@@ -1,0 +1,8 @@
+### Basic Node template
+*.log
+/coverage
+/node_modules
+/.idea
+/sandbox.*
+/sandbox/
+# Created by .ignore support plugin (hsz.mobi)
