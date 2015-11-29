@@ -135,7 +135,7 @@ assert.ok(true);
 
 #### Advanced use in Testing Frameworks:
 
-* Note: hopefully assertion frameworks will not access this directly, but allow users to specify their own configuration presets.*
+*Note: hopefully assertion frameworks will not access this directly, but allow users to specify their own configuration presets.*
 
 ```js
 var support = require('power-assert-support');
